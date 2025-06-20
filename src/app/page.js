@@ -9,11 +9,13 @@ export default function HomePage() {
         <Link href = "/Goals">Goals</Link>
         <Link href = "/Calendar">Calendar</Link>
       </nav>
-      <h1>Welcome to My Page</h1>
-      <form>
-        <label for = "log">Enter Log:</label>
-        <input type="text" id="log"/>
-      </form>
+      <div id="log_page">
+        <form>
+          <label for = "log">Enter Log:</label>
+          <input type="text" id="log"/>
+        </form>
+        <button>Submit</button>
+      </div>
     </main>
   );
 }

@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #134923;
+    --background: #433414;
     --foreground: #ededed;
   }
 }
@@ -38,4 +38,27 @@ body {
       border: 2px solid #ccc; 
       border-radius: 5px; 
       font-size: 16px; 
+      background-color: rgb(187, 169, 109);
+      color: black;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--background); /* or a solid color */
+  color: var(--foreground);
+  padding: 16px;
+  z-index: 1000;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+
