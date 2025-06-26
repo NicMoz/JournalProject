@@ -97,3 +97,17 @@ h2{
       background-color: rgb(187, 169, 109);
       color: black;
 }
+#submit{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid white; 
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+}
+#submit:hover{
+  background-color: white;
+  color: black;
+}
