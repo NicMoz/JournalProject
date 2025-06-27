@@ -22,6 +22,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="fixed top-0 left-0 w-full bg-white shadow-md p-4 z-50 text-center space-x-6">
+          <a href="/">Home</a>
+          <a href="/Grades">Grades</a>
+          <a href="/Goals">Goals</a>
+          <a href="/Calendar">Calendar</a>
+        </nav>
         {children}
       </body>
     </html>
